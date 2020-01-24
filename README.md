@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/Saja-401-advanced-javascript/class-04/pull/1)
+- [ci/cd](https://github.com/Saja-401-advanced-javascript/class-04/actions) (GitHub Actions)
 
 
 
