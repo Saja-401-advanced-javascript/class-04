@@ -1,12 +1,12 @@
-'use strict';
+
 
 const uuid = require('uuid/v4');
 const fs = require('fs');
-const util = require('util')
+const util = require('util');
 
 let file = `${__dirname}/data/categories.db`;
 
-let readFile = util.promisify(fs.readFile)
+let readFile = util.promisify(fs.readFile);
 readFile(file)
   .then(data => console.log( data.toString().trim()))
   .catch(err => { throw err; });
